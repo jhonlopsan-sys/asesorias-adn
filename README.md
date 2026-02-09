@@ -1,1 +1,207 @@
-# asesorias-adn
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ADN Consulting - Asesorías Contables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #0A1F44;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            background-color: #162b5c;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background-color: #1f3c88;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        h2 {
+            color: #0A1F44;
+        }
+
+        .servicio {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            gap: 30px;
+        }
+
+        .servicio img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .servicio-texto {
+            max-width: 600px;
+        }
+
+        .contacto-info {
+            margin-bottom: 30px;
+        }
+
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #0A1F44;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1f3c88;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0A1F44;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    ADN Consulting - Asesorías Contables
+</header>
+
+<nav>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contáctenos</a>
+</nav>
+
+<section id="quienes">
+    <h2>Quiénes Somos</h2>
+    <p>
+        ADN Consulting es una firma especializada en asesorías contables, financieras y estratégicas.
+        Nuestro compromiso es brindar soluciones integrales que permitan a empresas y emprendedores
+        tomar decisiones seguras, basadas en datos y cumplimiento normativo.
+    </p>
+    <img src="Contadora.png" width="400">
+</section>
+
+<section id="servicios">
+    <h2>Nuestros Servicios</h2>
+
+    <div class="servicio">
+        <img src="Consultor empresarial.png">
+        <div class="servicio-texto">
+            <h3>Consultoría Empresarial</h3>
+            <p>Asesoramos en estrategias de crecimiento, optimización de recursos y toma de decisiones financieras.</p>
+        </div>
+    </div>
+
+    <div class="servicio">
+        <img src="Asesoria Tributaria.png">
+        <div class="servicio-texto">
+            <h3>Asesoría Tributaria</h3>
+            <p>Planeación fiscal estratégica y cumplimiento oportuno de obligaciones tributarias.</p>
+        </div>
+    </div>
+
+    <div class="servicio">
+        <img src="Contadora.png">
+        <div class="servicio-texto">
+            <h3>Contabilidad</h3>
+            <p>Registro, organización y análisis contable bajo normativas vigentes.</p>
+        </div>
+    </div>
+
+    <div class="servicio">
+        <img src="Especialista en control interno.png">
+        <div class="servicio-texto">
+            <h3>Control Interno</h3>
+            <p>Evaluación de procesos y gestión de riesgos para fortalecer la estructura empresarial.</p>
+        </div>
+    </div>
+
+    <div class="servicio">
+        <img src="analista financiero.png">
+        <div class="servicio-texto">
+            <h3>Análisis Financiero</h3>
+            <p>Interpretación de indicadores y proyecciones económicas para decisiones estratégicas.</p>
+        </div>
+    </div>
+
+    <div class="servicio">
+        <img src="analista financiero.png">
+        <div class="servicio-texto">
+            <h3>Auditoría Forense</h3>
+            <p>Investigación especializada para detección de fraudes y análisis de irregularidades financieras.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="contacto">
+    <h2>Contáctenos</h2>
+
+    <div class="contacto-info">
+        <p><strong>Celulares:</strong> 3112507322 - 3508504909</p>
+        <p><strong>WhatsApp:</strong> 3112507322 - 3508504909</p>
+        <p><strong>Correos:</strong> Nathaly.castro@gmail.com - jhonlopsan@gmail.com</p>
+    </div>
+
+    <form>
+        <input type="text" placeholder="Número de celular" required>
+        <input type="text" placeholder="Asunto" required>
+        <textarea rows="5" placeholder="Descripción del asunto" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+</section>
+
+<footer>
+    © 2026 ADN Consulting - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
